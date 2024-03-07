@@ -11,6 +11,7 @@ if ($nilaiNumerik >= 90 && $nilaiNumerik <= 100){
 } elseif ($nilaiNumerik < 70){
     echo "Nilai Huruf: D";
 }
+//Menilai nilai numerik dalam variabel nilaiNumerik dan memberikan nilai huruf berdasarkan kriteria tertentu.
 
 
 echo "<br>";
@@ -24,6 +25,7 @@ while($jarakSaatIni < $jarakTarget){
     $jarakSaatIni += $peningkatanHarian;
     $hari++;
 }
+// Menggunakan perulangan while untuk menghitung waktu yang diperlukan atlet mencapai jarak 500 kilometer.
 echo "Atlet tersebut memerlukan $hari hari untuk mencapai jarak 500 kilometer.";
 echo "<br>";
 
@@ -36,7 +38,9 @@ $jumlahBuah = 0;
 for($i = 1; $i <= $jumlahLahan; $i++){
     $jumlahBuah += ($tanamanPerlahan * $buahPerTanaman);
 };
+// Menggunakan perulangan for untuk menghitung total buah yang akan dipanen dari sejumlah lahan.
 echo "Jumlah buah yang akan dipanen adalah: $jumlahBuah";
+
 
 echo "<br>";
 //Soal Nomor 4.4 Peryataan Kondisional foreach
@@ -47,7 +51,7 @@ foreach($skorUjian as $skor){
     $totalSkor += $skor;
 }
 echo "Total skor ujian adalah: $totalSkor";
-
+// Menggunakan perulangan foreach untuk menghitung total skor ujian dari nilai-nilai yang ada.
 
 echo "<br>";
 //Soal Nomor 4.5 Pernyataan Kondisional foreach dan if
@@ -60,5 +64,7 @@ foreach ($nilaiSiswa as $nilai){
     }
         echo "Nilai: $nilai (Lulus) <br>";
     }
+// Menggunakan array 1 dimensi untuk menyimpan nilai dalam variabel nilaiSiswa
+// Menggunakan perulangan foreach dan pernyataan if untuk menilai dan menampilkan status lulus/tidak lulus dari setiap nilai siswa.
 
 ?>

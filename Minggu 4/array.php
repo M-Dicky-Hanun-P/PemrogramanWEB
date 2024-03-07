@@ -13,6 +13,9 @@
 
     echo "Daftar nilai siswa yang lulus: " . implode(', ', $nilaiLulus );
     echo "<br>";
+// Menggunakan array 1 dimensi yang menyimpan nilai.
+// Kemudian menggunakan perulangan foreach untuk mencasi nilai siswa yang lebih dari 70
+// Menampilkan daftar nilai yang diubah menjadi text dengan implode.
 
 // Soal Nomor 5.2 array multidimensi
     $daftarKaryawan = [
@@ -31,7 +34,12 @@
     }
     echo "Daftar karyawan dengan pengalaman kerja lebih dari 5 tahun: " . implode(', ', $karyawanPengalamanLimaTahun);
     echo "<br>";
-    
+// Menggunakan arrat 2 dimensi untuk menyimpan data nama karyawan dan angka pengalaman kerjanya.
+// Menggunakan logika perulangan foreach yang di dalamnya ada statment if,
+// Variabel $daftarKaryawan di alias menjadi $karyawan, kemudian mencari nilai karyawan yang pengalaman kerja lebih dari 5 tahun.
+// Menampilkan  nama-nama karyawan yang memiliki pengalaman kerja lebih dari lima tahun melalui implode.
+
+
 // Soal Nomor 5.3 array multidimensi
  $daftarNilai = [
     'Matematika' => [
@@ -57,6 +65,9 @@ echo "Daftar nilai mahasiswa dalam mata kuliah $mataKuliah: <br>";
 foreach ($daftarNilai[$mataKuliah] as $nilai){
     echo "Nama: {$nilai[0]}, Nilai: {$nilai[1]} <br>";
 }
+// Menggunakan array multidimensi untuk menyimpan  data nilai mahasiswai dalam setiap mata kuliah.
+// Menggunakan variabel $mataKuliah untuk membedakan antara daftar nilai fisika dengan daftar nilai matematika dan daftar nilai Kimia.
+// Dapat menampilkan daftar nilai mahasiswa yang terdapat dalam suatu mata kuliah.
 
 
 // Soal Cerita Nomor 5.4
@@ -69,13 +80,19 @@ $Nilai = [
         ['Eva', 90],
     ],
 ];
+
 $nama = 'Matematika';
 echo "Daftar nilai rata-rata di kelas $nama: <br>";
 $total = 0;
 foreach ($Nilai[$nama] as $data) {
-$total += $data[1];
+    $total += $data[1];
 }
 $rata_rata = $total / count($Nilai[$nama]);
 echo "Jadi nilai rata-rata di kelas adalah: {$rata_rata}%";
+
+// Program menghitung rata-rata nilai matematika dari beberapa mahasiswa. 
+// Logika iterasi dengan foreach digunakan untuk implementasi setiap nilai mahasiswa. 
+// Total nilai diakumulasikan, dan rata-rata dihitung. 
+// Hasil rata-rata ditampilkan dalam bentuk pesan.
 
 ?>
