@@ -30,11 +30,11 @@ echo $newText; // Menampilkan output: I like banana pie.
 
 echo "<br>";
 // Mencocokkan "god", "good", "gooood", dll.
-$pattern = '/go*d/';
+$pattern = '/go{1,3}d/'; // Menggunakan {n,m} untuk mencocokkan karakter 'o' sebanyak 1 hingga 3 kali, kemudian diikuti oleh karakter 'd'.
 $text = 'god is good.';
 if(preg_match($pattern, $text, $matches)) {
-    echo "Cocokan: " . $matches[0]; // Menampilkan  pesan jika cocokan berhasil dilakukan.
+    echo "Cocokan: " . $matches[0]; // Menampilkan pesan jika cocokan berhasil dilakukan.
 } else {
-    echo "Tidak ada yang cocok!.";// Menampilkan  pesan jika pencocokan tidak berhasil dilakukan.
+    echo "Tidak ada yang cocok!"; // Menampilkan pesan jika pencocokan tidak berhasil dilakukan.
 }
 ?>
