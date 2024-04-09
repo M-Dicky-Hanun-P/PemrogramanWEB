@@ -2,10 +2,12 @@
 <html>
 <head>
     <title>Unggah File Dokumen</title>
+    <link rel="stylesheet" href="upload.css">
 </head>
 <body>
     <div class="upload-form-container">
         <h2>Unggah File Dokumen</h2>
+        <link rel="upload.css">
         <form id="upload-form" action="upload_ajax.php" method="post" enctype="multipart/form-data">
             <div class="file-input-container">
                 <input type="file" name="file[]" id="file" class="file-input" accept="image/" multiple>
