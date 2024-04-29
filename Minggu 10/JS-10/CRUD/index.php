@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- Menggunakan Bootstrap untuk mempercantik tampilan dan memberikan interaksi yang lebih baik kepada pengguna -->
+    <!-- Menggunakan Bootstrap memberikan tampilan yang lebih baik kepada pengguna -->
     <div class="container mt-4">
         <h2>Data Anggota</h2>
         <a class="btn btn-success mt-2" href="create.php">Tambah Data</a>

@@ -72,3 +72,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!--Program ini menggunakan Bootstrap CSS untuk membuat tampilan responsif. 
+Setiap input memiliki atribut required yang memastikan pengguna wajib mengisi setiap kolom sebelum mengirimkan form. 
+Terdapat tombol "Kembali" yang mengarahkan pengguna ke halaman index.php.  
+Form mengarahkan aksi ke proses.php?aksi=tambah untuk menangani data yang disubmit.-->

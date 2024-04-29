@@ -99,3 +99,7 @@ mysqli_close($koneksi);*/
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!-- Di dalam kode ini terdapat Kontainer Bootstrap dengan margin atas 4, Input nama dengan nilai awal sesuai data, 
+Input alamat dengan nilai awal sesuai data, Input nomor telepon dengan nilai awal sesuai data,
+Memuat jQuery, Memuat Popper.js, Memuat Bootstrap JavaScript. -->
