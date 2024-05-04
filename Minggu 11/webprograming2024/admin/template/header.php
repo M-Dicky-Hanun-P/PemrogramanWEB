@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="Moch. Dicky>
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Aplikasi Kantor Yunika</title>
+    <title>Aplikasi Kantor M Dicky</title>
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">
 
@@ -97,9 +97,9 @@
         }
     </style>
 
-    <!-- Mencustom gaya untuk templat -->
+    <!-- Mencustom gaya untuk template -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
-    <!-- Mencustom gaya untuk templat -->
+    <!-- Mencustom gaya untuk template -->
     <link href="assets/custom/dashboard.css" rel="stylesheet">
 </head>
 
@@ -238,7 +238,7 @@
     </svg>
 
     <header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">Company name</a>
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">MDHP Dicky</a>
 
         <ul class="navbar-nav flex-row d-md-none">
             <li class="nav-item text-nowrap">
@@ -268,3 +268,4 @@
 
 </body>
 </html>
+<!-- membuat Kode tata letak halaman utama menggunakan Bootstrap, yang responsif dan menggunakan ikon-ikon Bootstrap untuk elemen-elemen tombol, menu dropdown, dll. -->

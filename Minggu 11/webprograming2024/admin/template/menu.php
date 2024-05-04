@@ -81,3 +81,8 @@
         </div>
     </div>
 </div>
+
+<!-- untuk bagian dari sidebar yang digunakan untuk menampilkan menu aplikasi. 
+Sidebar memiliki tata letak yang responsif dan menggunakan ikon-ikon Bootstrap untuk setiap menu. 
+Terdapat juga fitur offcanvas menu untuk tampilan medium dan lebih besar. 
+Sidebar ini ada daftar menu seperti Dashboard, Anggota, dan Jabatan. Menu tambahan yaitu Settings dan Log out. -->

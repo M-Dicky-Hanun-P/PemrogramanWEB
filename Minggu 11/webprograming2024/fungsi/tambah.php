@@ -58,3 +58,5 @@ if (!empty($_SESSION['username'])) {
     }
 }
 ?>
+<!-- Pada code di atas untuk menambahkan anggota baru ke dalam database dan ada antiinjection untuk pencegahan SQL injection, dan code ini melakukan enkripsi password menggunakan BCRYPT sebelum memasukkan data user ke dalam database. 
+Tambahan code tersebut untuk pencocokan $username dengan tambahan antiinjection untuk mencegah SQL injection, dengan melakukan antiinjetion pada semua variabel dengan method post maka dalam database data tersebut akan sesuai dengan inputan.-->

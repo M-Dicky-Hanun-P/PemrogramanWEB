@@ -47,3 +47,5 @@
     // Menghentikan eksekusi kode selanjutnya
     die();
 ?>
+<!-- Pada code di untuk bertujuan memberikan keamanan tambahan, pencegahan terhadap SQL injection, 
+SQL injection adalah teknik peretasan yang memanipulasi query SQL untuk mengakses atau memodifikasi data dalam database secara tidak sah. -->

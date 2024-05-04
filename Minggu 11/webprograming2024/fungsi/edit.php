@@ -77,3 +77,4 @@ if (!empty($_SESSION['username'])) {
     }
 }
 ?>
+<!-- Pada code di atas membuat format untuk mengubah jabatan, ketika jabatan sudah di ubah maka di dalam database juga terdapat perubahan, apabila sudah di ubah maka lanjut ke halaman indeks.php?page=jabatan. -->

@@ -62,3 +62,5 @@ if (!empty($_SESSION['username'])) {
     }
 }
 ?>
+<!-- Pada code di atas membuat code untuk menghapus data jabatan dan dapat menghapus data di dalam database juga, dan terdapat pengecekan dengan $koneksi dan $query. 
+Ketika sudah terhapus maka lanjut ke halaman indeks.php?page=jabatan. -->

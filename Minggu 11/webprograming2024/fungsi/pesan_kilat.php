@@ -42,3 +42,5 @@
         }
     }
 ?>
+<!-- Program di atas untuk pesan yang ingin ditampilkan kepada pengguna, 
+seperti pesan sukses setelah operasi berhasil dilakukan atau pesan peringatan untuk informasi penting. -->
